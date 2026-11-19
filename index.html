@@ -68,11 +68,115 @@
 </div>
 
     </section>
+
+<section class="container py-3" id="activities">
+  <h2 class="mb-3">Things we do</h2>
+  <div class="row g-4">
+    <div class="col-12 md:col-6 lg:col-4">
+      <article class="card h-100">
+        <img src="images/seedlings.svg" class="card-img-top" alt="Seedlings growing in a planter">
+        <div class="card-body">
+          <h3 class="card-title h5">Starting seeds</h3>
+          <p class="card-text">Plant seeds in small pots and see which ones start growing.</p>
+          <details><summary>Details</summary><p>We add soil, water the seeds, and check them every few days.</p></details>
+          <button class="btn btn-solid theme-primary mt-3" type="button" data-bs-toggle="dialog" data-bs-target="#seedDialog">More info</button>
+        </div>
+      </article>
+    </div>
+    <div class="col-12 md:col-6 lg:col-4">
+      <article class="card h-100">
+        <img src="images/herbs.svg" class="card-img-top" alt="Herbs growing in a raised garden bed">
+        <div class="card-body">
+          <h3 class="card-title h5">Growing herbs</h3>
+          <p class="card-text">Grow herbs like basil and mint in the garden beds.</p>
+          <details><summary>Details</summary><p>We water the herbs and trim them when they get too big.</p></details>
+          <button class="btn btn-solid theme-primary mt-3" type="button" data-bs-toggle="dialog" data-bs-target="#herbDialog">More info</button>
+        </div>
+      </article>
+    </div>
+    <div class="col-12 md:col-6 lg:col-4">
+      <article class="card h-100">
+        <img src="images/pollinators.svg" class="card-img-top" alt="Flowers growing in the garden">
+        <div class="card-body">
+          <h3 class="card-title h5">Flowers</h3>
+          <p class="card-text">Plant flowers that can attract bees and butterflies.</p>
+          <details><summary>Details</summary><p>We try different flowers and see which ones grow well in our space.</p></details>
+          <button class="btn btn-solid theme-primary mt-3" type="button" data-bs-toggle="dialog" data-bs-target="#flowerDialog">More info</button>
+        </div>
+      </article>
+    </div>
+    <div class="col-12 md:col-6 lg:col-4">
+      <article class="card h-100">
+        <img src="images/compost.svg" class="card-img-top" alt="Compost bin with leaves and garden scraps">
+        <div class="card-body">
+          <h3 class="card-title h5">Compost</h3>
+          <p class="card-text">Learn how old leaves and food scraps can be used in compost.</p>
+          <details><summary>Details</summary><p>Compost can be added to soil to help plants grow.</p></details>
+          <button class="btn btn-solid theme-primary mt-3" type="button" data-bs-toggle="dialog" data-bs-target="#compostDialog">More info</button>
+        </div>
+      </article>
+    </div>
+    <div class="col-12 md:col-6 lg:col-4">
+      <article class="card h-100">
+        <img src="images/watering.svg" class="card-img-top" alt="Watering can pouring water on a plant">
+        <div class="card-body">
+          <h3 class="card-title h5">Watering plants</h3>
+          <p class="card-text">Help water the plants and keep the garden in good shape.</p>
+          <details><summary>Details</summary><p>We check the soil first so we do not water more than needed.</p></details>
+          <button class="btn btn-solid theme-primary mt-3" type="button" data-bs-toggle="dialog" data-bs-target="#waterDialog">More info</button>
+        </div>
+      </article>
+    </div>
+    <div class="col-12 md:col-6 lg:col-4">
+      <article class="card h-100">
+        <img src="images/harvest.svg" class="card-img-top" alt="Tomatoes collected from the garden">
+        <div class="card-body">
+          <h3 class="card-title h5">Harvest time</h3>
+          <p class="card-text">Pick vegetables when they are ready and share the harvest.</p>
+          <details><summary>Details</summary><p>We check each plant and only pick the vegetables that are ready.</p></details>
+          <button class="btn btn-solid theme-primary mt-3" type="button" data-bs-toggle="dialog" data-bs-target="#harvestDialog">More info</button>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
   </main>
 
   <footer class="bg-1 py-3 mt-4">
     <div class="container"><p class="mb-0">© 2026 Campus Garden Club</p></div>
   </footer>
+
+<dialog class="dialog" id="seedDialog">
+  <div class="dialog-header"><h2 class="dialog-title">Starting seeds</h2><button type="button" class="btn-close" data-bs-dismiss="dialog" aria-label="Close"></button></div>
+  <div class="dialog-body"><p>We plant a few seeds in pots and check them as they grow.</p></div>
+  <div class="dialog-footer"><button type="button" class="btn btn-solid theme-primary" data-bs-dismiss="dialog">Close</button></div>
+</dialog>
+<dialog class="dialog" id="herbDialog">
+  <div class="dialog-header"><h2 class="dialog-title">Growing herbs</h2><button type="button" class="btn-close" data-bs-dismiss="dialog" aria-label="Close"></button></div>
+  <div class="dialog-body"><p>Members can help grow and look after herbs like basil and mint.</p></div>
+  <div class="dialog-footer"><button type="button" class="btn btn-solid theme-primary" data-bs-dismiss="dialog">Close</button></div>
+</dialog>
+<dialog class="dialog" id="flowerDialog">
+  <div class="dialog-header"><h2 class="dialog-title">Flowers</h2><button type="button" class="btn-close" data-bs-dismiss="dialog" aria-label="Close"></button></div>
+  <div class="dialog-body"><p>We plant flowers that make the garden more colourful and can help pollinators.</p></div>
+  <div class="dialog-footer"><button type="button" class="btn btn-solid theme-primary" data-bs-dismiss="dialog">Close</button></div>
+</dialog>
+<dialog class="dialog" id="compostDialog">
+  <div class="dialog-header"><h2 class="dialog-title">Compost</h2><button type="button" class="btn-close" data-bs-dismiss="dialog" aria-label="Close"></button></div>
+  <div class="dialog-body"><p>Compost is made from things like leaves and some food scraps.</p></div>
+  <div class="dialog-footer"><button type="button" class="btn btn-solid theme-primary" data-bs-dismiss="dialog">Close</button></div>
+</dialog>
+<dialog class="dialog" id="waterDialog">
+  <div class="dialog-header"><h2 class="dialog-title">Watering plants</h2><button type="button" class="btn-close" data-bs-dismiss="dialog" aria-label="Close"></button></div>
+  <div class="dialog-body"><p>Watering is a simple job that helps keep the garden healthy.</p></div>
+  <div class="dialog-footer"><button type="button" class="btn btn-solid theme-primary" data-bs-dismiss="dialog">Close</button></div>
+</dialog>
+<dialog class="dialog" id="harvestDialog">
+  <div class="dialog-header"><h2 class="dialog-title">Harvest time</h2><button type="button" class="btn-close" data-bs-dismiss="dialog" aria-label="Close"></button></div>
+  <div class="dialog-body"><p>When vegetables are ready, we pick them and share what we have grown.</p></div>
+  <div class="dialog-footer"><button type="button" class="btn btn-solid theme-primary" data-bs-dismiss="dialog">Close</button></div>
+</dialog>
 
   <script type="module" src="js/bootstrap.bundle.min.js"></script>
 </body>
