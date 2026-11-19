@@ -32,10 +32,59 @@
     </nav>
   </header>
 
-  <main class="container py-4">
-    <h1>Contact us</h1>
-    <p>If you want to join or have a question, send us a message.</p>
-  </main>
+  <
+<main class="container py-4">
+  <h1>Contact us</h1>
+  <p>If you want to join or have a question, send us a message.</p>
+  <form action="#" method="get">
+    <div class="row g-4">
+      <div class="col-12 md:col-6">
+        <div class="form-field">
+          <label for="firstName">First name</label>
+          <input class="form-control" type="text" id="firstName" name="firstName" required>
+        </div>
+      </div>
+      <div class="col-12 md:col-6">
+        <div class="form-field">
+          <label for="lastName">Last name</label>
+          <input class="form-control" type="text" id="lastName" name="lastName" required>
+        </div>
+      </div>
+      <div class="col-12 md:col-6">
+        <div class="form-field">
+          <label for="email">Email</label>
+          <input class="form-control" type="email" id="email" name="email" placeholder="name@example.com" required>
+        </div>
+      </div>
+      <div class="col-12 md:col-6">
+        <div class="form-field">
+          <label for="interest">What is your question about?</label>
+          <select class="form-control" id="interest" name="interest" required>
+            <option value="">Choose one</option>
+            <option value="joining">Joining the club</option>
+            <option value="volunteering">Volunteering</option>
+            <option value="garden">The garden</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="form-field">
+          <label for="message">Message</label>
+          <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="form-field">
+          <input class="check" type="checkbox" id="consent" name="consent" required>
+          <label for="consent">It is okay to contact me about this message.</label>
+        </div>
+      </div>
+      <div class="col-12">
+        <button class="btn btn-solid theme-primary" type="submit">Send</button>
+      </div>
+    </div>
+  </form>
+</main>
 
   <footer class="bg-1 py-3 mt-4">
     <div class="container"><p class="mb-0">© 2026 Campus Garden Club</p></div>
