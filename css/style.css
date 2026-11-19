@@ -1,0 +1,16 @@
+:root {
+  --bs-primary-base: #a84365;
+  --bs-primary-fg: #87334f;
+  --bs-primary-fg-emphasis: #64243a;
+  --bs-primary-bg: #a84365;
+  --bs-primary-bg-subtle: #f8e8bd;
+  --bs-primary-bg-muted: #f0d18a;
+  --bs-primary-border: #d58ba0;
+  --bs-primary-focus-ring: #e8a8ba;
+  --bs-primary-contrast: #ffffff;
+}
+.btn-solid.theme-primary {
+  --bs-btn-bg: #a84365;
+  --bs-btn-color: #ffffff;
+  --bs-btn-border-color: #a84365;
+}
